@@ -1,0 +1,12 @@
+# build output
+*.exe
+src/icon-tmp.exe
+
+# third-party, fetched by tools/get-forcebindip.ps1
+tools/*.dll
+
+# per-machine state
+netsplit.json
+netsplit.json.tmp
+agent.log
+agent-routes.txt
